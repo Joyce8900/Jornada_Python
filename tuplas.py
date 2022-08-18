@@ -33,3 +33,5 @@ print(f"O elemento 10 está na posição: {tupla.index(10)}")
 #Interação
 for elemento in tupla:
     print (f"Elemento = {elemento} ")
+
+    
