@@ -11,7 +11,7 @@
 # idade_float = float(idade)
 # print (idade_float)
 # print (f"Tipo{type(idade_float)}")
-#print (float("1"))
+# print (float("1"))
 # n=  round (6.0999)
 # print (n)
 # print (pow(10,2,6))
