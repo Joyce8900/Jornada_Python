@@ -3,8 +3,7 @@ import math
 
 
 def reverte(num):
-    print(str(num)[::-1])
-    return (str(num)[::-1])
+    return print(str(num)[::-1])
 
 
 # Usando o conceito de fatiamento de string, você pode reverter a string. ::-1corresponde a start:stop:step.
@@ -21,8 +20,7 @@ def validarN(numero):
         print(f"Digite apenas números! {numero}")
         return (len(numero))
     else:
-        print(len(numero))
-        return (len(numero))
+        return print(len(numero))
 
 
 teste = (input("Digite um número inteiro:"))
@@ -34,8 +32,7 @@ resultado = validarN(teste)
 
 
 def potencia(a, b):
-    print(pow(a, b))
-    return pow(a, b)
+    return print(pow(a, b))
 
 
 n1 = int(input("Valor da base:"))
@@ -48,11 +45,9 @@ resultado = potencia(n1, n2)
 # Exemplo: ’uf’ é prefixo de ’ufabc’. ’ufabc’ não é prefixo de ’uf’.
 def verificarP(frase, palavra):
     if (frase.count(palavra)) == 0:
-        print("Erro!")
-        return False
+        return print(False)
     else:
-        print("True")
-        return True
+        return print(True)
 
 
 f = ("O céu está lindo hoje!")
