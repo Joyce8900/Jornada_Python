@@ -53,7 +53,7 @@ class Carro(Automovel):
     def gerar_valor_fatura(self, numero_pedagios, km_rodados):
         self.valor_fatura = (numero_pedagios*valor_pedagio_carro) +(valor_km_rodado_carro*km_rodados)
         print(f"Fatura do carro {self.montadora} {self.modelo} gerada com sucesso! Valor de R$:{self.valor_fatura:.2f}")
-        Carro.valor_total_locacoes = Carro.valor_total_locacoes +1
+        Carro.valor_total_locacoes = Carro.valor_total_locacoes + self.valor_fatura
 
     @classmethod
     def calcular_media_locacoes(cls):
@@ -79,7 +79,7 @@ class Moto(Automovel):
     def gerar_valor_fatura(self, numero_pedagios, km_rodados):
         self.valor_fatura = (numero_pedagios*valor_pedagio_moto) + (valor_km_rodado_moto*km_rodados)
         print(f"Fatura da moto {self.montadora} {self.modelo} gerada com sucesso! Valor de R$:{self.valor_fatura:.2f}")
-        Moto.valor_total_locacoes+=1
+        Moto.valor_total_locacoes+= self.valor_fatura
 
     @classmethod
     def calcular_media_locacoes(cls):
