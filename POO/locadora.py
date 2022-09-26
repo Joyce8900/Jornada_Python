@@ -115,10 +115,9 @@ def mostrar_fatura(automovel):
 # mostrar_fatura(honda)
 
 
-# fiesta = Carro("Ford","Fiesta",False)
-# fiesta.alugar("Joyce Oliveira dos Santos")
-# print(Carro.numero_total_locacao_carro)
-# fiat_mobi = Carro("Fiat","Mobi",False)
-# fiat_mobi.alugar("Joyce")
+fiesta = Carro("Ford","Fiesta",False)
+fiesta.alugar("Joyce Oliveira dos Santos")
+print(Carro.numero_total_locacao_carro)
+fiat_mobi = Carro("Fiat","Mobi",False)
+fiat_mobi.alugar("Joyce")
 
-# print(Carro.numero_total_locacao_carro)
