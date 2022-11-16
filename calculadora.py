@@ -4,3 +4,4 @@ numero2 = float(input(print("Digite o segundo número:")))
 equacao = f"{numero1} {operacao} {numero2}"
 resultado = eval(equacao)
 print(f"{' ' * 20 }\nResultado:{resultado}  {' '*20}\n")
+print ("Fim do Programa!")
